@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perfil</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:linear-gradient(to bottom right, rgb(44, 129, 93),rgb(59, 103, 154));color: whitesmoke;margin: auto;">
+	<header style="background-image: linear-gradient(to bottom right, rgb(44, 129, 93),rgb(59, 103, 154));">
+		<h1>Hypergram</h1>
+		<nav style="display: inline;">
+			<ul>
+				<li><a href="hyper(comeceaqui).html">Home</a></li>
+				<li><a href="configuracoes.html">Configurações</a></li>
+				<li><a href="perfil.html">Perfil</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main style="text-align: center;color: bisque;">
+        <img src="https://picsum.photos/id/184/500/500" alt="Post Image">
+		<form name="sextou" id="formulario_cadastro" action="hyper(comeceaqui).html">
+			<label>Nome:</label><input type="text" name="nome" size="10" maxlength="20"><br><br>
+			<label>Endereço:</label><input type="text" name="endereco" size="20" maxlength="70"><br><br>
+			<label>Telefone(com DDD):</label><input type="tel" name="telefone" size="20" maxlength="15"><br><br>
+			<label>Email:</label><input type="email" name="email" size="25" maxlength="150"><br><br>
+			<label>Genêro:</label><br><input type="radio" id="sexoM" name="genero" value="M"><label for="sexoM">Masculino</label>
+			<input type="radio" id="sexoF" name="genero" value="F"><label for="sexoF">Feminino</label>
+			<input type="radio" id="sexoNI" name="genero" value="NI"><label for="sexoNI">Prefiro não informar</label><br><br>
+			<label>Estado:</label><select name="estado" id="estado">
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas</option>
+				<option value="AP">Amapá</option>
+				<option value="AM">Amazonas</option>
+				<option value="BA">Bahia</option>
+				<option value="CE">Ceará</option>
+				<option value="ES">Espírito Santo</option>
+				<option value="GO">Goiás</option>
+				<option value="MA">Maranhão</option>
+				<option value="MT">Mato Grosso</option>
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="PA">Pará</option>
+				<option value="PB">Paraíba</option>
+				<option value="PR">Paraná</option>
+				<option value="PE">Pernambuco</option>
+				<option value="PI">Piauí</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="RO">Rondônia</option>
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe</option>
+				<option value="TO">Tocantins</option>
+				<option value="DF">Distrito Federal</option>
+			</select><br>
+			<input type="submit" name="Enviar" id="salvar">
+		</form>
+	</main>
+	<footer>
+		<p style="color: azure;">&copy; 2023 Hypergram; qualquer semelhança com a realidade pode não ser uma mera coincidência</p>
+	</footer>
+</body>
+</html>
